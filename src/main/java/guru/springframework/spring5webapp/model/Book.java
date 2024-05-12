@@ -24,6 +24,8 @@ public class Book {
     )
     private Set<Author> authors = new HashSet<>();
 
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "publisher_id", referencedColumnName = "id")
     @ManyToOne
     private Publisher publisher;
 
