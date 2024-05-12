@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class Spring5webappApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	void contextLoads() {
 	}
 
 }
